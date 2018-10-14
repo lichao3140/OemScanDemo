@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Oct 14 22:57:44 CST 2018
+0.baseType=DIRECTORY
+0.base=E\:\\lichao\\work\\iData\\code\\OemScanDemo\\app\\build\\intermediates\\assets\\debug
+0.path=yf.platform.jks
+0.set=ASSET
+count=1

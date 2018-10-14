@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="decode_centering_mode_entries">
+	    <item>Off</item>
+        <item>Around Aimer</item>
+        <item>Field Of View</item>
+        <item>Sub Image</item>
+    </string-array>
+    <string-array name="decode_centering_mode_values">
+	    <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="exposure_mode_titles">
+        <item>Fixed</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="exposure_mode_values">
+        <item name="fixed">0</item>
+        <item name="auto">2</item>
+    </string-array>
+    <string-array name="file_save_type_titles">
+        <item>.pgm</item>
+        <item>.png</item>
+        <item>.raw</item>
+    </string-array>
+    <string-array name="file_save_type_values">
+        <item>pgm</item>
+        <item>png</item>
+        <item>raw</item>
+    </string-array>
+    <string-array name="lights_config_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="lights_config_values_titles">
+        <item>Illum/Aimer Off</item>
+        <item>Aimer Only</item>
+        <item>Illum Only</item>
+        <item>Alternating</item>
+        <item>Concurrent</item>
+    </string-array>
+    <string-array name="ocr_mode_entries">
+        <item>Off</item>
+        <item>Normal Video</item>
+        <item>Inverse</item>
+        <item>Both</item>
+    </string-array>
+    <string-array name="ocr_mode_values">
+	    <item name="ocr_mode_off">0</item>
+        <item name="ocr_mode_normal_video">1</item>
+        <item name="ocr_mode_inverse">2</item>
+        <item name="ocr_mode_both">3</item>
+    </string-array>
+    <string-array name="ocr_template_entries">
+        <item>User Defined</item>
+        <item>Passport</item>
+        <item>ISBN</item>
+        <item>Price Field</item>
+        <item>MicrE-13 B</item>
+    </string-array>
+    <string-array name="ocr_template_values">
+	    <item name="ocr_user_template">1</item>
+        <item name="ocr_passport_template">2</item>
+        <item name="ocr_isbn_template">4</item>
+        <item name="ocr_price_field_template">8</item>
+        <item name="ocr_micre13b_template">16</item>
+    </string-array>
+    <string-array name="postal_sym_entries">
+        <item>No Postal</item>
+        <item>Austrialan Post</item>
+        <item>British Post</item>
+        <item>Canadian Post</item>
+        <item>Dutch Post</item>
+        <item>Japan Post</item>
+        <item>Planet Code</item>
+        <item>Post Net</item>
+        <item>US Postals</item>
+        <item>UPU 4 State</item>
+        <item>USPS 4 State</item>
+    </string-array>
+    <string-array name="postal_sym_values">
+	    <item name="no_postals">0</item>
+        <item name="aus_post">1</item>
+        <item name="british_post">7</item>
+        <item name="canadian">30</item>
+        <item name="dutch_post">4</item>
+        <item name="japan_post">3</item>
+        <item name="planet_code">5</item>
+        <item name="post_net">6</item>
+        <item name="us_postals">29</item>
+        <item name="upu_4_state">9</item>
+        <item name="usps_4_state">10</item>
+    </string-array>
+    <string-array name="sym_aus_interpret_mode_values">
+	    <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="sym_auspost_interpret_mode_entries">
+	    <item>None</item>
+        <item>Numeric N Table</item>
+        <item>Alphanumeric C Table</item>
+        <item>Combination N and C Tablese</item>
+    </string-array>
+    <string-array name="wait_for_decode_config_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="wait_for_decode_config_values_titles">
+        <item>Wait For Single</item>
+        <item>Wait For Multiple</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="about">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="aimid_hint">AimID displayed here</string>
+    <string name="app_name">OemScanDemo</string>
+    <string name="codeid_hint">CodeID displayed here</string>
+    <string name="decode_centering_mode_list_summary">For Centering Mode</string>
+    <string name="decode_centering_mode_list_title">Mode Configuration</string>
+    <string name="decode_time_limit_summary">Used to set time limit decoder has to decode a region of interestt</string>
+    <string name="decode_time_limit_title">Decode Time Limit</string>
+    <string name="decode_use_wait_for_decode_with_timeout_only_summaryoff">Check to use WaitForDecode(timeout)</string>
+    <string name="decode_use_wait_for_decode_with_timeout_only_summaryon">Uncheck to use WaitForDecode(timeout, DecodeResult)</string>
+    <string name="decode_use_wait_for_decode_with_timeout_only_title">WaitForDecode(timeout)</string>
+    <string name="decode_wait_for_decode_config">WaitForDecode Config</string>
+    <string name="disable_all_sym">Disable All Sym</string>
+    <string name="enable_all_sym">Enable All Sym</string>
+    <string name="get_last_image">Get Last Image</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="image_mode">Image Mode</string>
+    <string name="label_aimid">AimID:</string>
+    <string name="label_codeid">CodeID:</string>
+    <string name="label_data_results">Data: (barcode_data)\nLength: (length)\nCodeId: (code_id)\nAimId: (aim_id)\nModifier: (modifier)</string>
+    <string name="label_image_mode">Image Mode</string>
+    <string name="label_length">Length:</string>
+    <string name="label_modifier">Modifier:</string>
+    <string name="label_results">Data:</string>
+    <string name="label_scan_mode">Scan Mode</string>
+    <string name="length_hint">Length displayed here</string>
+    <string name="menu_settings">Settings</string>
+    <string name="modifier_hint">Modifier displayed here</string>
+    <string name="pref_ic_aimer_on_settings">Aimer Enable</string>
+    <string name="pref_ic_aimer_on_summary">Enable/Disable Aimer</string>
+    <string name="pref_ic_illumination_on_settings">Illumination Enable</string>
+    <string name="pref_ic_illumination_on_summary">Enable/Disable Illumination</string>
+    <string name="pref_ic_lights_control_settings">Lights Control Settings</string>
+    <string name="reset_settings">Reset Settings</string>
+    <string name="results_hint">Data displayed here</string>
+    <string name="scan_for_picture_or_press_menu_for_options">Press SCAN button to take picture or select menu for options.\n\n</string>
+    <string name="scan_for_start_scanning_or_press_menu_for_options">Press SCAN button to start barcode scanning or select menu for options.\n\n</string>
+    <string name="scan_mode">Scan Mode</string>
+    <string name="scan_to_set_scan_key">Press SCAN button to configure scan key.\n\n</string>
+    <string name="scanning_preferences">Scanning Preferences</string>
+    <string name="set_scan_key">Set Scan Key</string>
+    <string name="set_scan_key_mode">Set SCAN Key Mode</string>
+    <string name="svn_rev">2017.01.52M</string>
+    <string name="sybology_configuration">Symbology Configuration</string>
+    <string name="sym_2_digit_addenda_enable_title">2 Digit Addenda</string>
+    <string name="sym_5_digit_addenda_enable_title">5 Digit Addenda</string>
+    <string name="sym_addenda_required_enable_title">Addenda Required</string>
+    <string name="sym_addenda_separator_enable_title">Addenda Separator</string>
+    <string name="sym_advanced_preferences">Advanced Preferences</string>
+    <string name="sym_advanced_preferences_summary">Configure advanced settings (min, max, etc.)</string>
+    <string name="sym_append_enable_title">Append</string>
+    <string name="sym_auspost_interpret_mode_list_summary">For Setting Interpret Mode</string>
+    <string name="sym_auspost_interpret_mode_list_title">Aus Post Interpret Mode</string>
+    <string name="sym_auspost_title">Australian Post</string>
+    <string name="sym_aztec_title">Aztec Code</string>
+    <string name="sym_bpo_title">BPO</string>
+    <string name="sym_canpost_title">Canadian Post</string>
+    <string name="sym_check_enable_title">Check Enable</string>
+    <string name="sym_check_to_enable">Currently disabled, check to enable</string>
+    <string name="sym_check_transmit_enable_title">Check Transmit</string>
+    <string name="sym_chinapost">Korea Post</string>
+    <string name="sym_chinapost_title">China Post</string>
+    <string name="sym_codabar_concatenate_enable_title">Codabar Concatenate</string>
+    <string name="sym_codabar_title">Codabar</string>
+    <string name="sym_codablock_title">Codeblock</string>
+    <string name="sym_code11_title">Code11</string>
+    <string name="sym_code128_title">Code128</string>
+    <string name="sym_code16k_title">Code16K</string>
+    <string name="sym_code32_title">Code32</string>
+    <string name="sym_code39_title">Code39</string>
+    <string name="sym_code49_title">Code49</string>
+    <string name="sym_code93_title">Code93</string>
+    <string name="sym_composite_title">Composite</string>
+    <string name="sym_composite_upc_enable_title">Composite UPC</string>
+    <string name="sym_configuration">Symbology Configuration</string>
+    <string name="sym_couponcode_title">Coupon Code</string>
+    <string name="sym_datamatrix_title">Data Matrix</string>
+    <string name="sym_dutchpost_title">Dutch Post</string>
+    <string name="sym_ean13_title">EAN13</string>
+    <string name="sym_ean8_title">EAN8</string>
+    <string name="sym_enable">Enable</string>
+    <string name="sym_enable_disable">Enable/Disable Symbologies</string>
+    <string name="sym_enable_summary">Select to enable symbology</string>
+    <string name="sym_fullascii_enable_title">Start/Stop Transit</string>
+    <string name="sym_gridmatrix_title">Grid Matrix</string>
+    <string name="sym_gs1_128_title">GS1 128</string>
+    <string name="sym_hanxin_title">Hanxin</string>
+    <string name="sym_iata25_title">IATA25</string>
+    <string name="sym_idtag_title">ID Tag</string>
+    <string name="sym_int25_title">INT25</string>
+    <string name="sym_isbt_title">ISBT</string>
+    <string name="sym_japost_title">Japan Post</string>
+    <string name="sym_koreapost">China Post</string>
+    <string name="sym_koreapost_title">Korean Post</string>
+    <string name="sym_label_title">Label</string>
+    <string name="sym_matrix25_title">Matrix 2 or 5</string>
+    <string name="sym_maxicode_title">Maxicode</string>
+    <string name="sym_maxlength_summary">Configure Maximum Length</string>
+    <string name="sym_maxlength_title">Max Length</string>
+    <string name="sym_micropdf_title">MicroPDF</string>
+    <string name="sym_minlength_summary">Configure Minimum Length</string>
+    <string name="sym_minlength_title">Min Length</string>
+    <string name="sym_msi_title">MSI</string>
+    <string name="sym_num_transmit_enable_title">Num Transmit</string>
+    <string name="sym_ocr_title">OCR</string>
+    <string name="sym_pdf417_title">PDF417</string>
+    <string name="sym_planet_title">Planet</string>
+    <string name="sym_plessey_title">Plessey</string>
+    <string name="sym_posicode_title">PosiCode</string>
+    <string name="sym_postal_list_summary">For configuring 2D postal symbologies</string>
+    <string name="sym_postal_list_title">Postal Symbology Configuration</string>
+    <string name="sym_postals_title">Postals</string>
+    <string name="sym_postnet_title">Postnet</string>
+    <string name="sym_qr_title">QR</string>
+    <string name="sym_rss_rse_enable_title">RSE RSS Enable</string>
+    <string name="sym_rss_rsl_enable_title">RSL RSS Enable</string>
+    <string name="sym_rss_title">RSS</string>
+    <string name="sym_start_stop_transmit_enable_title">Start/Stop Transit</string>
+    <string name="sym_strt25_title">STRT25</string>
+    <string name="sym_telepen_old_style_enable_title">Telepen Old Style</string>
+    <string name="sym_telepen_title">Telepen</string>
+    <string name="sym_tlcode39_title">TLC Code39</string>
+    <string name="sym_trioptic_title">Trioptic</string>
+    <string name="sym_uncheck_to_disable">Currently enabled, uncheck to disable</string>
+    <string name="sym_upca_title">UPC-A</string>
+    <string name="sym_upce0_expanded_enable_title">UPCE0 Exanded</string>
+    <string name="sym_upce0_title">UPC-E0</string>
+    <string name="sym_upce1_title">UPC-E1</string>
+    <string name="sym_us_postals1_title">US Postals</string>
+    <string name="sym_usps4cb_title">USPS4CB</string>
+    <string name="symbology_advanced_configuration">Advanced Configuration</string>
+    <string name="symbology_advanced_configuration_summary">For configuring min, max, flags, etc.</string>
+    <string name="symbology_enable_disable_configuration">Enable/Disable</string>
+    <string name="symbology_enable_disable_configuration_summary">For enabling or disabling symbologies</string>
+    <string name="symbology_select_to_configure_advanced_properties">Select to config advanced properties</string>
+    <string name="title_activity_image_capture">ImageCaptureActivity</string>
+    <string name="title_exposure_mode">Exposure Mode</string>
+    <string name="title_exposure_mode_summary">For setting exposure mode</string>
+    <string name="title_lights_config">Lights Configuration</string>
+    <string name="title_lights_config_summary">For configuring lights mode</string>
+    <string name="title_wait_for_decode_config_summary">Wait for single or multiple barcodes</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+#Sun Oct 14 22:57:45 CST 2018
+base.0=E\:\\lichao\\work\\iData\\code\\OemScanDemo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

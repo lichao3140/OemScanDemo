@@ -1,0 +1,132 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Source\
+* Source\OemScanDemo\
+* Source\OemScanDemo\.classpath
+* Source\OemScanDemo\.project
+* Source\OemScanDemo\.settings\
+* Source\OemScanDemo\.settings\org.eclipse.jdt.core.prefs
+* Source\OemScanDemo\AndroidManifest.xml
+* Source\OemScanDemo\libs\
+* Source\OemScanDemo\libs\android-support-v4.jar
+* Source\OemScanDemo\libs\armeabi\
+* Source\OemScanDemo\libs\armeabi\readme.txt
+* Source\OemScanDemo\libs\decoderapijni.jar
+* Source\OemScanDemo\lint.xml
+* Source\OemScanDemo\proguard-project.txt
+* Source\OemScanDemo\project.properties
+* Source\OemScanDemo\res\
+* Source\OemScanDemo\res\drawable-hdpi\
+* Source\OemScanDemo\res\drawable-hdpi\background_image_mode.png
+* Source\OemScanDemo\res\drawable-hdpi\background_scan_mode.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_action_about.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_action_disable_all.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_action_enable_all.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_action_get_last_image_no.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_action_image_mode.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_action_scan_mode.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_action_settings2.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_launcher.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_launcher_meh.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_launcher_orig.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_launcher_plain.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_launcher_too_much.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_menu_get_last_image.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_menu_get_last_image2.png
+* Source\OemScanDemo\res\drawable-hdpi\ic_menu_get_last_image3.png
+* Source\OemScanDemo\res\drawable-mdpi\
+* Source\OemScanDemo\res\drawable-mdpi\ic_launcher.png
+* Source\OemScanDemo\res\drawable-xhdpi\
+* Source\OemScanDemo\res\drawable-xhdpi\ic_launcher.png
+* Source\OemScanDemo\res\drawable-xxhdpi\
+* Source\OemScanDemo\res\drawable-xxhdpi\background_image_mode.png
+* Source\OemScanDemo\res\drawable-xxhdpi\background_scan_mode.png
+* Source\OemScanDemo\res\drawable-xxhdpi\ic_launcher.png
+* Source\OemScanDemo\res\drawable-xxxhdpi\
+* Source\OemScanDemo\res\drawable-xxxhdpi\ic_launcher.png
+* Source\OemScanDemo\res\layout\
+* Source\OemScanDemo\res\layout\activity_image_capture.xml
+* Source\OemScanDemo\res\layout\activity_main.xml
+* Source\OemScanDemo\res\layout\revision_info_dialog.xml
+* Source\OemScanDemo\res\menu\
+* Source\OemScanDemo\res\menu\image_capture.xml
+* Source\OemScanDemo\res\menu\settings.xml
+* Source\OemScanDemo\res\values-sw600dp\
+* Source\OemScanDemo\res\values-sw600dp\dimens.xml
+* Source\OemScanDemo\res\values-sw720dp-land\
+* Source\OemScanDemo\res\values-sw720dp-land\dimens.xml
+* Source\OemScanDemo\res\values-v11\
+* Source\OemScanDemo\res\values-v11\styles.xml
+* Source\OemScanDemo\res\values-v14\
+* Source\OemScanDemo\res\values-v14\styles.xml
+* Source\OemScanDemo\res\values\
+* Source\OemScanDemo\res\values\arrays.xml
+* Source\OemScanDemo\res\values\dimens.xml
+* Source\OemScanDemo\res\values\strings.xml
+* Source\OemScanDemo\res\values\styles.xml
+* Source\OemScanDemo\res\values\svn_rev.xml
+* Source\OemScanDemo\res\xml\
+* Source\OemScanDemo\res\xml\configuration_settings.xml
+* Source\OemScanDemo\res\xml\image_capture_settings.xml
+* Source\OemScanDemo\res\xml\version_info_dialog.xml
+* Source\OemScanDemo\src\
+* Source\OemScanDemo\src\com\
+* Source\OemScanDemo\src\com\example\
+* Source\OemScanDemo\src\com\example\oemscandemo\
+* Source\OemScanDemo\src\com\example\oemscandemo\ConfigurationSettingsActivity.java
+* Source\OemScanDemo\src\com\example\oemscandemo\ImageCaptureActivity.java
+* Source\OemScanDemo\src\com\example\oemscandemo\ImageCaptureSettingActivity.java
+* Source\OemScanDemo\src\com\example\oemscandemo\MainActivity.java
+* Source\OemScanDemo\version.mk
+* VersionText.txt
+* proguard-project.txt
+* version.mk
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\armeabi\libHHPScanInterface.so => app\src\main\jniLibs\armeabi\libHHPScanInterface.so
+* libs\armeabi\libHSMDecoderAPI.so => app\src\main\jniLibs\armeabi\libHSMDecoderAPI.so
+* libs\armeabi\libHsmKil.so => app\src\main\jniLibs\armeabi\libHsmKil.so
+* libs\decoderapijni.jar => app\libs\decoderapijni.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

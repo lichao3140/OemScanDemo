@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\lichao\work\iData\code\OemScanDemo\app\src\main\assets"><file name="yf.platform.jks" path="E:\lichao\work\iData\code\OemScanDemo\app\src\main\assets\yf.platform.jks"/></source><source path="E:\lichao\work\iData\code\OemScanDemo\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\lichao\work\iData\code\OemScanDemo\app\src\debug\assets"/></dataSet></merger>

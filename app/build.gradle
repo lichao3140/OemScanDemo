@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('src/main/assets/yf.platform.jks')
+            storePassword 'android'
+        }
+    }
+    compileSdkVersion 14
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.example.oemscandemo"
+        minSdkVersion 14
+        targetSdkVersion 14
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:18.0.0'
+    implementation files('libs/decoderapijni.jar')
+}
